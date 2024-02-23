@@ -18,3 +18,18 @@
 :root {
     --1st-color: rgb(171,219,227);
 }
+
+.link-1:hover {
+    transform: scale(1.2);
+}
+
+.btn-1 {
+    transition: 1s;
+    display: inline;
+}
+
+.btn-1:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+}
+
